@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Learning Space — Homepage</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+      background: #f5f7fa;
+      color: #1a1a2e;
+      line-height: 1.6;
+    }
+    header {
+      background: linear-gradient(135deg, #0f3460 0%, #1a1a2e 100%);
+      color: white;
+      padding: 4rem 2rem;
+      text-align: center;
+    }
+    header h1 { font-size: 2.5rem; margin-bottom: 0.5rem; }
+    header p { font-size: 1.1rem; opacity: 0.85; }
+    .container { max-width: 800px; margin: 0 auto; padding: 2rem; }
+    section { margin-bottom: 2.5rem; }
+    h2 {
+      font-size: 1.5rem;
+      border-bottom: 3px solid #0f3460;
+      padding-bottom: 0.4rem;
+      margin-bottom: 1rem;
+      color: #0f3460;
+    }
+    .card {
+      background: white;
+      border-radius: 12px;
+      padding: 1.5rem;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+      margin-bottom: 1rem;
+    }
+    .skills { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+    .skill-tag {
+      background: #e8edf3;
+      color: #0f3460;
+      padding: 0.3rem 0.8rem;
+      border-radius: 20px;
+      font-size: 0.9rem;
+    }
+    .project-list { list-style: none; }
+    .project-list li { margin-bottom: 0.5rem; }
+    .project-list li::before { content: "▸ "; color: #0f3460; font-weight: bold; }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      color: #666;
+      font-size: 0.85rem;
+    }
+    a { color: #0f3460; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>👋 Welcome to My Homepage</h1>
+    <p>A small space for learning, projects, and ideas</p>
+  </header>
+
+  <div class="container">
+    <section>
+      <h2>About Me</h2>
+      <div class="card">
+        <p>This page is a place to share learning notes, small projects, and ideas. I am exploring technology and building my skills one step at a time.</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Skills & Interests</h2>
+      <div class="card">
+        <div class="skills">
+          <span class="skill-tag">Learning</span>
+          <span class="skill-tag">Technology</span>
+          <span class="skill-tag">Small Projects</span>
+          <span class="skill-tag">Creative Problem-Solving</span>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Projects</h2>
+      <div class="card">
+        <ul class="project-list">
+          <li><strong>github.io Homepage</strong> — My personal space on the web</li>
+          <li><strong>More coming soon...</strong></li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>Get in Touch</h2>
+      <div class="card">
+        <p>
+          📍 GitHub: <a href="https://github.com/jacksonorjoker" target="_blank">github.com/jacksonorjoker</a><br>
+        </p>
+      </div>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2026. Made with care for GitHub Pages.</p>
+  </footer>
+</body>
+</html>
